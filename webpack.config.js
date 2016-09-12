@@ -32,7 +32,9 @@ module.exports = {
   },
   resolve: {
     modulesDirectories: ["node_modules"],
-    extensions: ["", ".html", ".css", ".less", ".js"]
+    extensions: ["", ".html", ".css", ".less", ".js"],
+    alias: {vue: 'vue/dist/vue.js'}
+
   },
   plugins: [
     new webpack.BannerPlugin(banner, {raw: true}),
