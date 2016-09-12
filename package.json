@@ -1,0 +1,55 @@
+{
+  "name": "resty-cms",
+  "version": "1.0.0",
+  "description": "A cms for vue",
+  "useage": {
+    "first": "npm install",
+    "second": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreampie/resty-cms.git"
+  },
+  "keywords": [
+    "vue",
+    "api",
+    "cms"
+  ],
+  "author": "Dreampie",
+  "bugs": {
+    "url": "https://github.com/Dreampie/resty-cms/issues"
+  },
+  "homepage": "https://github.com/Dreampie/resty-cms#readme",
+  "engines": {
+    "node": ">= 4.2.1",
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --colors --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --colors --hide-modules"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "vue": "^2.0.0-rc.5",
+    "vue-router": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "cross-env": "^2.0.1",
+    "raw-loader": "^0.5.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.16.0",
+    "style-loader": "^0.13.1",
+    "css-loader": "^0.23.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
