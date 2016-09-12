@@ -10,7 +10,7 @@ var router = new VueRouter({
   mode: 'history',
   routes: [
     {path: '/', component: Home},
-    {path: '*', redirect: '/top'}
+    {path: '*', redirect: '/'}
   ]
 })
 

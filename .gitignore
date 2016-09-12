@@ -1,0 +1,9 @@
+.idea/
+node_modules/
+dist/
+*.log
+*.iml
+**/.DS_Store
+
+src/**/*.js
+src/**/*.js.map
